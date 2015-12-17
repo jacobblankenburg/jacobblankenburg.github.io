@@ -1,0 +1,49 @@
+#awesomeText {font-family: 'Times New Roman', Georgia, Serif;}
+.soft { color: #a8a8a8;}
+.center {text-align: center;}
+.container {margin: 0 auto;}
+p {
+font-size:22px;
+line-height:1.7em;
+padding-bottom: 20px;
+padding-top: 35px;
+
+}
+body, div, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, fieldset,{
+	margin: 0; padding: 0; border: 0;
+}
+h1 {text-align: center;
+	font-size :48; padding: 10; margin: 10;}	
+body {
+	background: #f6f5ee url(images/bg.jpg);
+	font: 14px/22px Helvetica, Sans-Serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+#container {
+	background: url(images/top-bar.jpg) top repeat-x;
+	background: url(images/top-bar.jpg) top repeat-x, url(images/footer-top.jpg) bottom repeat-x;
+	padding: 0 0 31px 0;
+}
+#header {
+	width: 961px; margin: 0 auto; position: relative;
+	overflow: hidden;
+}
+	#header ul#nav {
+		float: left; margin: 22px 0 0 24px; list-style: none;
+	}
+		#header ul#nav li {
+			float: left; margin: 0 0 0 45px;
+		}
+			#header ul#nav li:first-child {
+				margin: 0;
+			}
+				#header ul#nav li a {
+					display: block; font: 13px Georgia, Serif; letter-spacing: 2px; color: #eeede6;
+					text-decoration: none;
+				}
+					#header ul#nav li a:hover {
+						color: #d0cfc8;
+					}
