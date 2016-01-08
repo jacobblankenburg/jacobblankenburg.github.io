@@ -26,10 +26,21 @@
 				<blockquote><p><b><font color="black">This web page will describe and show what I am currently working<br> on and what I have completed so far.</font></blockquote>
 					<button onclick="myFunction()">No one has clicked the button</button>
 					<p id="demo"></p>
+					<button onclick="Name()">Click me</button>
+					<p id="demo"></p>
 					<script>
 						function myFunction() {
   						  document.getElementById("demo").innerHTML = "Someone has clicked the button";
-												}
+						}
+						function Name() {
+    						var person = prompt("Please enter your name", "Harry Potter");
+    
+    						if (person != null) {
+       							 document.getElementById("demo").innerHTML =
+        							"Hello " + person + "! How are you today?";
+    }
+}
 					</script>
+					<script src="script.js"></script>
 		</body>
 </html>

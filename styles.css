@@ -24,7 +24,7 @@ img {
     margin-right: auto }
 #container {
 	background: url(images/top-bar.jpg) top repeat-x;
-	background: url(images/top-bar.jpg) top repeat-x, url(images/footer-top.jpg) bottom repeat-x;
+	background: url(images/top-bar.jpg) top repeat-x, url(images/top-bar.jpg) bottom repeat-x;
 	padding: 0 0 31px 0;
 }
 #header {
